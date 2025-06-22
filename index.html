@@ -3,83 +3,47 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Cloud Trails – Legal Pages</title>
-    <style>
-        :root {
-            --bg-color: #0d0d0d;
-            --text-color: #e5e5e5;
-            --link-color: #4fc3f7;
-            --card-color: #1a1a1a;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        p {
-            color: #aaa;
-            margin-bottom: 2rem;
-        }
-
-        .link-card {
-            background-color: var(--card-color);
-            border: 1px solid #333;
-            border-radius: 8px;
-            padding: 1.2rem 2rem;
-            margin: 1rem 0;
-            width: 280px;
-            transition: background 0.2s ease;
-        }
-
-        .link-card a {
-            color: var(--link-color);
-            font-size: 1.1rem;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .link-card:hover {
-            background-color: #222;
-        }
-
-        footer {
-            margin-top: 4rem;
-            color: #666;
-            font-size: 0.85rem;
-        }
-    </style>
+    <title>Trails Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="assets/css/index/styles.css" rel="stylesheet">
 </head>
 <body>
+<header>
+    <h1>Welcome to Trails</h1>
+    <p>Personal projects on Soil Collections, Finance Management and Cloud Solutions — unified by curiosity.</p>
+</header>
 
-<h1>Cloud Trails - Legal Pages</h1>
-<p>Find our project disclaimers and privacy policies below:</p>
-
-<div class="link-card">
-    <a href="privacy">📄 Privacy Policy</a>
-</div>
-
-<div class="link-card">
-    <a href="legal">📘 Legal Notice</a>
-</div>
+<main>
+    <div class="card">
+        <div class="card-img">
+            <img src="https://soil.trails.click/images/common/site-logo.png" alt="Soil Trails Logo" class="card-st"/>
+        </div>
+        <h2>Soil Trails</h2>
+        <p>Documenting soil samples across India with GPS, time, and insights. A personal hobby project for education and exploration.</p>
+        <a href="https://soil.trails.click" target="_blank">Explore &rarr;</a>
+    </div>
+    <div class="card">
+        <div class="card-img">
+            <img src="https://money.trails.click/images/brand-logo.png" alt="Money Trails Logo" class="card-mt"/>
+        </div>
+        <h2>Money Trails</h2>
+        <p>Track your investments, get insights, and manage portfolios securely with your personal finance assistant.</p>
+        <a href="https://money.trails.click" target="_blank">Get Started &rarr;</a>
+    </div>
+    <div class="card">
+        <div class="card-img">
+            <img src="assets/images/cloud-trails-logo.png" alt="Cloud Trails Logo" class="card-ct"/>
+        </div>
+        <h2>Cloud Trails</h2>
+        <p>Personal cloud platform for storing contents, document, access, storage and syncing across devices.</p>
+        <a href="https://cloud.trails.click" target="_blank">Access &rarr;</a>
+    </div>
+</main>
 
 <footer>
-    &copy; 2025 Cloud Trails – A Personal Project with Zero Compromise to Privacy
+    <a href="/privacy" target="_blank">Privacy Policy</a>
+    <a href="/legal" target="_blank">Legal Notice</a>
+    <a href="/docs" target="_blank">Documents</a>
 </footer>
-
 </body>
 </html>
