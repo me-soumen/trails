@@ -23,6 +23,49 @@ header p {
 	font-size: 1.2rem;
 	color: #bbbbbb;
 }
+header {
+	background-color: #0d0d0d;
+	padding: 2rem 1rem;
+	border-bottom: 1px solid #333;
+}
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.2rem;
+	text-align: center;
+	position: relative;
+}
+.trails-logo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+}
+@media (min-width: 768px) {
+	.trails-logo {
+		width: 120px;
+		height: 120px;
+		padding: 5px;
+		border-radius: 50%;
+		object-fit: cover;
+		box-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+		position: absolute;
+		left: 200px;
+	}
+}
+.header-text h1 {
+	font-size: 2rem;
+	margin: 0;
+	color: #e5e5e5;
+}
+.header-text p {
+	color: #aaa;
+	margin-top: 0.5rem;
+	font-size: 1rem;
+}
 main {
 	display: flex;
 	flex-wrap: wrap;
