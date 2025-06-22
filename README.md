@@ -1,6 +1,6 @@
 # 🌐 Trails Projects
 
-Welcome to the central landing site for **Trails**, a collection of personal, educational, and hobby projects focused on cloud storage, financial tracking, and environmental documentation.  
+Welcome to the central landing site for **Trails Projects**, a collection of personal, educational, and hobby projects focused on cloud storage, financial tracking, and environmental documentation.  
 Hosted at 👉 [https://trails.click](https://trails.click)
 
 ---
