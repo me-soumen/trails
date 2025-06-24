@@ -7,6 +7,11 @@ body {
 	background: #121212;
 	color: #e0e0e0;
 }
+.page-wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /* Full viewport height */
+}
 header {
 	padding: 2rem;
 	text-align: center;
@@ -72,6 +77,7 @@ main {
 	justify-content: center;
 	padding: 3rem 1rem;
 	gap: 2rem;
+	flex: 1;
 }
 .card {
 	background: #1e1e1e;
