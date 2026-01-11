@@ -67,7 +67,8 @@ This repo also hosts the common legal documents for all Trails projects:
 ## 📬 Contact
 
 For questions or contributions (currently private projects), please contact:  
-📧 [trailslabs@gmail.com](mailto:trailslabs@gmail.com)
+📧 Official: [hi@trails.click](mailto:hi@trails.click)  
+👨‍💻 Developer: [soumen@trails.click](mailto:soumen@trails.click)
 
 ---
 
