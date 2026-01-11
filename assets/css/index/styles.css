@@ -60,6 +60,9 @@ header {
 		position: absolute;
 		left: 200px;
 	}
+	header p {
+		width: 1000px;
+	}
 }
 .header-text h1 {
 	font-size: 2rem;
