@@ -1,6 +1,6 @@
 # 🌐 Trails Projects
 
-Welcome to the central landing site for **Trails Projects**, a collection of personal, educational, and hobby projects focused on cloud storage, financial tracking, and environmental documentation.  
+Welcome to the central landing site for **Trails Projects**, a collection of personal, educational, and hobby projects focused on cloud storage, financial tracking, environmental documentation, games, life documentation, and password management.  
 Hosted at 👉 [https://trails.click](https://trails.click)
 
 ---
@@ -19,6 +19,18 @@ Frontend is hosted on GitHub, while backend runs on a personal server.
 ### ☁️ [Cloud Trails](https://cloud.trails.click)
 A self-hosted Nextcloud instance for private, secure cloud storage and personal file management.
 
+### 🔐 [Trails Vault](https://vault.trails.click)
+Personal password manager built on Vaultwarden.  
+Secure, self-hosted password management for storing and managing your credentials.
+
+### 🎮 [Play Trails](https://play.trails.click)
+A collection of fun, engaging, and entertaining browser-based games.  
+From puzzles to memory games to word games — games for everyone!
+
+### 🌲 [Life Trails](https://life.trails.click) *(Coming Soon)*
+A professional self-hosted web application for documenting life events chronologically and building family trees.  
+Document your journey, preserve your legacy.
+
 ---
 
 ## 🛡️ Legal and Privacy
@@ -33,8 +45,8 @@ This repo also hosts the common legal documents for all Trails projects:
 ## 🛠️ Tech Stack
 
 - **Static Site:** GitHub Pages
-- **Frontend (Money Trails, Soil Trails):** React, HTML/CSS
-- **Backend (Money Trails, Cloud Trails):** Spring Boot + Custom Server + Nextcloud
+- **Frontend (Money Trails, Soil Trails, Play Trails):** React, HTML/CSS, Vanilla JavaScript
+- **Backend (Money Trails, Cloud Trails, Trails Vault):** Spring Boot + Custom Server + Nextcloud + Vaultwarden
 - **DNS Management:** Cloudflare
 - **Design:** Minimalist dark theme with card-based layout
 
@@ -55,7 +67,7 @@ This repo also hosts the common legal documents for all Trails projects:
 ## 📬 Contact
 
 For questions or contributions (currently private projects), please contact:  
-📧 [contact.us.trails@gmail.com](mailto:contact.us.trails@gmail.com)
+📧 [trailslabs@gmail.com](mailto:trailslabs@gmail.com)
 
 ---
 

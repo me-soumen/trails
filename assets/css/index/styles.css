@@ -116,6 +116,21 @@ main {
 	width: 40%;
 	margin-bottom: 1.2rem;
 }
+.card-pt {
+	width: 200px;
+	height: 90px;
+	margin-bottom: 1.2rem;
+}
+.card-lt {
+	width: 150px;
+	height: 110px;
+	margin-bottom: 1.2rem;
+}
+.card-tv {
+	width: 250px;
+	height: 210px;
+	margin-bottom: 1.2rem;
+}
 .card h2 {
 	font-size: 1.6rem;
 	margin-bottom: 0.6rem;
